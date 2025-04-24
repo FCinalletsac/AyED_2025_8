@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\0_Castellani_Suarez\0_Castellani_M\0_PC8_4\0_PC8_4\bin\Debug\0_PC8_4.exe.config
+C:\Users\alumno.ET37\Desktop\0_Castellani_Suarez\0_Castellani_M\0_PC8_4\0_PC8_4\obj\Debug\0_PC8_4.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\0_Castellani_Suarez\0_Castellani_M\0_PC8_4\0_PC8_4\bin\Debug\0_PC8_4.exe
+C:\Users\alumno.ET37\Desktop\0_Castellani_Suarez\0_Castellani_M\0_PC8_4\0_PC8_4\bin\Debug\0_PC8_4.pdb
+C:\Users\alumno.ET37\Desktop\0_Castellani_Suarez\0_Castellani_M\0_PC8_4\0_PC8_4\obj\Debug\0_PC8_4.exe
+C:\Users\alumno.ET37\Desktop\0_Castellani_Suarez\0_Castellani_M\0_PC8_4\0_PC8_4\obj\Debug\0_PC8_4.pdb
