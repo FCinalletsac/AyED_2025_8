@@ -1,0 +1,27 @@
+ 
+            Console.WriteLine(" Cuantos Invitados acuden ");
+            int numero = int.Parse(Console.ReadLine());
+            int[] invitados = new int[numero];
+            bool condicion = false;
+            int promedio = 10;
+            for (int i = 0; i < numero; i++)
+            { 
+                promedio += invitados[i];
+                while (condicion == false)
+                {
+                    Console.WriteLine(" Cuanto come cada invitado entre 1 y 100 ");
+                    int comida = int.Parse(Console.ReadLine());
+                    if (comida >= 1 && comida <= 100)
+                    {
+                        condicion = true;
+                    }
+                    invitados[i] = comida;
+                
+                }
+             }
+            Console.WriteLine("El promedio por invitado es:" + (promedio / numero));
+            Console.ReadKey();
+
+            }
+    }
+}
