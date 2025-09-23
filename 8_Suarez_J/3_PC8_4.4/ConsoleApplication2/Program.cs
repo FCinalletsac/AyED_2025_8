@@ -43,7 +43,7 @@ namespace ConsoleApplication2
                 }
                 else
                 {
-                    // no es letra → lo dejo igual
+                    
                     result.Append(c);
                 }
             }
@@ -52,3 +52,4 @@ namespace ConsoleApplication2
         }
     }
 }
+
