@@ -35,19 +35,19 @@ namespace ConsoleApplication1
             int cols = grid.GetLength(1);
             int count = 0;
 
-            // Arriba
+            
             if (row - 1 >= 0 && grid[row - 1, col] == 1)
                 count++;
 
-            // Abajo
+            
             if (row + 1 < rows && grid[row + 1, col] == 1)
                 count++;
 
-            // Izquierda
+            
             if (col - 1 >= 0 && grid[row, col - 1] == 1)
                 count++;
 
-            // Derecha
+            
             if (col + 1 < cols && grid[row, col + 1] == 1)
                 count++;
 
@@ -55,3 +55,4 @@ namespace ConsoleApplication1
         }
     }
 }
+
