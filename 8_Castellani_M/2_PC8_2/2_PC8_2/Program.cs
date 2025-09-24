@@ -1,0 +1,84 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _2_PC8_2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            {
+                int examenes;
+                int tps;
+                int promedios = 0;
+                int tpsAprobados = 0;
+                int porcentajestpsAprobados;
+                bool examenAprob, tpsaprueba;
+                Console.WriteLine(" Escriba Cuantos examenes rindio ");
+                examenes = int.Parse(Console.ReadLine());
+                Console.WriteLine(" Escriba Cuantos tps rindio ");
+                tps = int.Parse(Console.ReadLine());
+                int[] notaEX = new int[examenes];
+                int[] notaTP = new int[tps];
+
+                for (int i = 0; i <examenes; i++)
+                {
+                    Console.WriteLine(" ¿Cuanto te sacaste en el examen? ");
+                    notaEX[i] = int.Parse(Console.ReadLine());
+                    promedios += notaEX[i];
+                }
+
+                promedios /= examenes;
+
+                if (promedios >= 6)
+                {
+                    examenAprob = true;
+                    Console.WriteLine(" Aprobaste el examen ");
+                }
+                else
+                {
+                    examenAprob = false;
+                    Console.WriteLine(" No Promediaste la materia  ");
+                }
+                for (int i = 0; i < tps; i++)
+                {
+                    Console.WriteLine(" ¿Cuanto te sacaste en el TP? ");
+                    notaTP[i] = int.Parse(Console.ReadLine());
+                    if (notaTP[i] >= 6)
+                    {
+                        tpsAprobados++;
+                    }
+                }
+
+                porcentajestpsAprobados = (tpsAprobados * 100) / tps;
+
+                if (porcentajestpsAprobados >= 75)
+                {
+                    tpsaprueba = true;
+                    Console.WriteLine(" Aprobaste el 75% de los TPS ");
+                }
+                else
+                {
+                    tpsaprueba = false;
+                    Console.WriteLine(" No aprobaste el 75% de los TPS ");
+                }
+                if (examenAprob && tpsaprueba)
+                {
+                    Console.WriteLine(" Felicitaciones, aprobaste la materia ");
+                }
+                else
+                {
+                    Console.WriteLine(" No aprobaste la materia ");
+                }
+
+                Console.ReadKey();
+            }
+        }
+    }
+}
+    
+
