@@ -1,0 +1,8 @@
+D:\proyectos ayed\2_PC8_8\2_PC8_8\bin\Debug\2_PC8_8.exe.config
+D:\proyectos ayed\2_PC8_8\2_PC8_8\bin\Debug\2_PC8_8.exe
+D:\proyectos ayed\2_PC8_8\2_PC8_8\bin\Debug\2_PC8_8.pdb
+D:\proyectos ayed\2_PC8_8\2_PC8_8\obj\Debug\2_PC8_8.csproj.AssemblyReference.cache
+D:\proyectos ayed\2_PC8_8\2_PC8_8\obj\Debug\2_PC8_8.csproj.CoreCompileInputs.cache
+D:\proyectos ayed\2_PC8_8\2_PC8_8\obj\Debug\2_PC8_8.exe
+D:\proyectos ayed\2_PC8_8\2_PC8_8\obj\Debug\2_PC8_8.pdb
+D:\proyectos ayed\2_PC8_8\2_PC8_8\obj\Debug\2_PC8_8.exe.config
